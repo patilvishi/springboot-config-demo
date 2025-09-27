@@ -4,7 +4,7 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>springboot-config-demo</artifactId>
+  <artifactId>springboot-security-basic</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -13,8 +13,12 @@
   </parent>
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>
   </dependencies>
 </project>

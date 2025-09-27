@@ -1,30 +1,24 @@
+# Spring Boot Security – Basic Authentication
 
-## External Configuration
-	**Repo:** `springboot-config-demo`
+This project demonstrates securing REST endpoints with **Spring Security Basic Auth**.
+
+## Features
+- Secure all endpoints with HTTP Basic Authentication
+- In-memory user store for demo purposes
+- Custom security configuration using `SecurityFilterChain`
+- Profile-based credentials
+
+## Run
+```bash
+./mvnw spring-boot:run
 
 
-# External Configuration
+## Access the app:
 
-## Overview
+http://localhost:8080/hello
+ → Prompts for username/password.
 
-	Manage environment-specific settings using property and YAML files.
+## Default Credentials
 
-## Project Structure
-
-	src/main/java/com/example/config
-	├── ConfigApplication.java
-	└── controller/ConfigController.java
-	
-	resources
-	├── application.properties
-
-	
-## Key Concepts
-	- `@Value` injection
-	- `@ConfigurationProperties`
-	- YAML vs properties
-	- Environment variables override
-
-## Run Locally
-
-	mvn spring-boot:run
+Username: user
+Password: printed in console (or set in application.yml).

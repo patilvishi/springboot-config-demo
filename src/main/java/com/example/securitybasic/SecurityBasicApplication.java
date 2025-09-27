@@ -1,11 +1,11 @@
-package com.example.configdemo;
+package com.example.securitybasic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigDemoApplication {
+public class SecurityBasicApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigDemoApplication.class, args);
+        SpringApplication.run(SecurityBasicApplication.class, args);
     }
 }
